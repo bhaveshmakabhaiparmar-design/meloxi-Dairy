@@ -1,0 +1,15 @@
+{
+  "name": "com-meloxi-dairy-app",
+  "version": "1.0.0",
+  "author": "MELOXI Dairy Owner",
+  "description": "MELOXI DAIRY — Voice AI Dairy Software by MELOXI Dairy Owner",
+  "scripts": {
+    "init": "npm install && npx cap add android && npx cap sync android",
+    "build": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  }
+}
